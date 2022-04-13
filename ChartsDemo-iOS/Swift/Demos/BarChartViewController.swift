@@ -40,7 +40,7 @@ class BarChartViewController: DemoBaseViewController {
         
         self.setup(barLineChartView: chartView)
         
-        chartView.delegate = self
+//        chartView.delegate = self
         
         chartView.drawBarShadowEnabled = false
         chartView.drawValueAboveBarEnabled = false
@@ -50,7 +50,7 @@ class BarChartViewController: DemoBaseViewController {
         let xAxis = chartView.xAxis
         xAxis.labelPosition = .bottom
         xAxis.labelFont = .systemFont(ofSize: 10)
-        xAxis.granularity = 1
+        xAxis.granularity = 86400
         xAxis.labelCount = 7
         xAxis.valueFormatter = DayAxisValueFormatter(chart: chartView)
         

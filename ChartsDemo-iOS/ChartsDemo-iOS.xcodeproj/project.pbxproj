@@ -136,6 +136,13 @@
 		5BEAED401ABC1AC60013F194 /* SinusBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */; };
 		5BEAED411ABC1AC60013F194 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */; };
 		B64D06EB1FB199130067418D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64D06EA1FB199130067418D /* Launch Screen.storyboard */; };
+		FA3002B02806799B00326E48 /* CandyDetailMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3002AF2806799B00326E48 /* CandyDetailMarkerView.swift */; };
+		FA92234A27FD7BF9001D30D3 /* DemoBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92234827FD7BF9001D30D3 /* DemoBarChartViewController.swift */; };
+		FA92234B27FD7BF9001D30D3 /* DemoBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA92234927FD7BF9001D30D3 /* DemoBarChartViewController.xib */; };
+		FAEF4E1827FFD72B00873E0D /* MonthXAxisRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF4E1727FFD72B00873E0D /* MonthXAxisRender.swift */; };
+		FAEF4E202803C14300873E0D /* DetailMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF4E1F2803C14300873E0D /* DetailMarkerView.swift */; };
+		FAEF4E292805754700873E0D /* DemoCandleChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF4E272805754700873E0D /* DemoCandleChartViewController.swift */; };
+		FAEF4E2A2805754700873E0D /* DemoCandleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEF4E282805754700873E0D /* DemoCandleChartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,6 +331,13 @@
 		5BEAED3E1ABC1AC60013F194 /* SinusBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinusBarChartViewController.m; sourceTree = "<group>"; };
 		5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusBarChartViewController.xib; sourceTree = "<group>"; };
 		B64D06EA1FB199130067418D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FA3002AF2806799B00326E48 /* CandyDetailMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailMarkerView.swift; sourceTree = "<group>"; };
+		FA92234827FD7BF9001D30D3 /* DemoBarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBarChartViewController.swift; sourceTree = "<group>"; };
+		FA92234927FD7BF9001D30D3 /* DemoBarChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoBarChartViewController.xib; sourceTree = "<group>"; };
+		FAEF4E1727FFD72B00873E0D /* MonthXAxisRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthXAxisRender.swift; sourceTree = "<group>"; };
+		FAEF4E1F2803C14300873E0D /* DetailMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMarkerView.swift; sourceTree = "<group>"; };
+		FAEF4E272805754700873E0D /* DemoCandleChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCandleChartViewController.swift; sourceTree = "<group>"; };
+		FAEF4E282805754700873E0D /* DemoCandleChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCandleChartViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +372,8 @@
 		225B361E1F6EB9A50005B3D5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				FAEF4E21280523D500873E0D /* DataSet */,
+				FAEF4E1A2800274500873E0D /* Render */,
 				225B361F1F6EB9A50005B3D5 /* AppDelegate.swift */,
 				225B362F1F6EB9EE0005B3D5 /* DemoBaseViewController.swift */,
 				225B36301F6EB9EE0005B3D5 /* DemoListViewController.swift */,
@@ -385,6 +401,8 @@
 				5BD47E5A1ABB0263008FCEC6 /* BalloonMarker.swift */,
 				225B363F1F6EBA180005B3D5 /* RadarMarkerView.swift */,
 				225B363D1F6EBA180005B3D5 /* XYMarkerView.swift */,
+				FAEF4E1F2803C14300873E0D /* DetailMarkerView.swift */,
+				FA3002AF2806799B00326E48 /* CandyDetailMarkerView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -415,6 +433,8 @@
 				225B364C1F6EBA410005B3D5 /* ScatterChartViewController.swift */,
 				225B36591F6EBA410005B3D5 /* SinusBarChartViewController.swift */,
 				225B364D1F6EBA410005B3D5 /* StackedBarChartViewController.swift */,
+				FA92234827FD7BF9001D30D3 /* DemoBarChartViewController.swift */,
+				FAEF4E272805754700873E0D /* DemoCandleChartViewController.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -456,6 +476,8 @@
 				5BEAED171ABBFB340013F194 /* ScatterChartViewController.xib */,
 				5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */,
 				5BEAED1A1ABBFB340013F194 /* StackedBarChartViewController.xib */,
+				FA92234927FD7BF9001D30D3 /* DemoBarChartViewController.xib */,
+				FAEF4E282805754700873E0D /* DemoCandleChartViewController.xib */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -602,6 +624,21 @@
 			path = Formatters;
 			sourceTree = "<group>";
 		};
+		FAEF4E1A2800274500873E0D /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF4E1727FFD72B00873E0D /* MonthXAxisRender.swift */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
+		FAEF4E21280523D500873E0D /* DataSet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -657,9 +694,11 @@
 					225B361C1F6EB9A50005B3D5 = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 1150;
+						ProvisioningStyle = Automatic;
 					};
 					5B57BBAE1A9B26AA0036A6CC = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2WMV7A5D52;
 						LastSwiftMigration = 1150;
 						ProvisioningStyle = Automatic;
 					};
@@ -736,6 +775,8 @@
 				225B36871F6EBA640005B3D5 /* RadarChartViewController.xib in Resources */,
 				225B368A1F6EBA640005B3D5 /* SinusBarChartViewController.xib in Resources */,
 				225B36731F6EBA5E0005B3D5 /* RadarMarkerView.xib in Resources */,
+				FAEF4E2A2805754700873E0D /* DemoCandleChartViewController.xib in Resources */,
+				FA92234B27FD7BF9001D30D3 /* DemoBarChartViewController.xib in Resources */,
 				225B367E1F6EBA640005B3D5 /* LineChart2ViewController.xib in Resources */,
 				225B36881F6EBA640005B3D5 /* RealmDemosViewController.xib in Resources */,
 				225B36861F6EBA640005B3D5 /* PositiveNegativeBarChartViewController.xib in Resources */,
@@ -802,10 +843,13 @@
 				225B36401F6EBA1D0005B3D5 /* XYMarkerView.swift in Sources */,
 				225B36421F6EBA1D0005B3D5 /* RadarMarkerView.swift in Sources */,
 				225B366B1F6EBA470005B3D5 /* RadarChartViewController.swift in Sources */,
+				FAEF4E292805754700873E0D /* DemoCandleChartViewController.swift in Sources */,
+				FAEF4E1827FFD72B00873E0D /* MonthXAxisRender.swift in Sources */,
 				225B36611F6EBA470005B3D5 /* LineChart1ViewController.swift in Sources */,
 				225B36691F6EBA470005B3D5 /* PieChartViewController.swift in Sources */,
 				225B365B1F6EBA470005B3D5 /* MultipleLinesChartViewController.swift in Sources */,
 				225B365F1F6EBA470005B3D5 /* ColoredLineChartViewController.swift in Sources */,
+				FAEF4E202803C14300873E0D /* DetailMarkerView.swift in Sources */,
 				225B36201F6EB9A50005B3D5 /* AppDelegate.swift in Sources */,
 				225B36321F6EB9EE0005B3D5 /* DemoListViewController.swift in Sources */,
 				225B36711F6EBA470005B3D5 /* CandleStickChartViewController.swift in Sources */,
@@ -815,10 +859,12 @@
 				225B36641F6EBA470005B3D5 /* StackedBarChartViewController.swift in Sources */,
 				225B36651F6EBA470005B3D5 /* BubbleChartViewController.swift in Sources */,
 				225B36381F6EBA040005B3D5 /* IntAxisValueFormatter.swift in Sources */,
+				FA3002B02806799B00326E48 /* CandyDetailMarkerView.swift in Sources */,
 				225B365D1F6EBA470005B3D5 /* HalfPieChartViewController.swift in Sources */,
 				225B36701F6EBA470005B3D5 /* SinusBarChartViewController.swift in Sources */,
 				225B36681F6EBA470005B3D5 /* AnotherBarChartViewController.swift in Sources */,
 				225B36621F6EBA470005B3D5 /* NegativeStackedBarChartViewController.swift in Sources */,
+				FA92234A27FD7BF9001D30D3 /* DemoBarChartViewController.swift in Sources */,
 				225B363B1F6EBA040005B3D5 /* LargeValueFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -896,6 +942,8 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -904,6 +952,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dcg.ChartsDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1053,7 +1102,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2WMV7A5D52;
 				FRAMEWORK_SEARCH_PATHS = "$(SOURCE_ROOT)/../Carthage/Build/iOS";
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;

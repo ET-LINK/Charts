@@ -34,7 +34,7 @@ class ScatterChartViewController: DemoBaseViewController {
                         .toggleAutoScaleMinMax,
                         .toggleData]
         
-        chartView.delegate = self
+//        chartView.delegate = self
 
         chartView.chartDescription.enabled = false
         

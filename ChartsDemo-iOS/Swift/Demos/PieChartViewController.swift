@@ -41,7 +41,7 @@ class PieChartViewController: DemoBaseViewController {
         
         self.setup(pieChartView: chartView)
         
-        chartView.delegate = self
+//        chartView.delegate = self
         
         let l = chartView.legend
         l.horizontalAlignment = .right

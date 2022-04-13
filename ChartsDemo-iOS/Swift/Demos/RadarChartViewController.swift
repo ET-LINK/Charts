@@ -39,7 +39,7 @@ class RadarChartViewController: DemoBaseViewController {
                         .saveToGallery,
                         .toggleData]
         
-        chartView.delegate = self
+//        chartView.delegate = self
         
         chartView.chartDescription.enabled = false
         chartView.webLineWidth = 1

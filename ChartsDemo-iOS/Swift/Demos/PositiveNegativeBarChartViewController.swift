@@ -39,7 +39,7 @@ class PositiveNegativeBarChartViewController: DemoBaseViewController {
         
         self.setup(barLineChartView: chartView)
         
-        chartView.delegate = self
+//        chartView.delegate = self
         
         chartView.setExtraOffsets(left: 70, top: -30, right: 70, bottom: 10)
     

@@ -43,7 +43,7 @@ class NegativeStackedBarChartViewController: DemoBaseViewController {
                         .toggleBarBorders]
         
 
-        chartView.delegate = self
+//        chartView.delegate = self
         
         chartView.chartDescription.enabled = false
         

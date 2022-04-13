@@ -35,7 +35,7 @@ class HalfPieChartViewController: DemoBaseViewController {
         
         self.setup(pieChartView: chartView)
         
-        chartView.delegate = self
+//        chartView.delegate = self
         
         chartView.holeColor = .white
         chartView.transparentCircleColor = NSUIColor.white.withAlphaComponent(0.43)

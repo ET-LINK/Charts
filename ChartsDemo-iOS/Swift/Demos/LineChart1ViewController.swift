@@ -39,7 +39,7 @@ class LineChart1ViewController: DemoBaseViewController {
                         .toggleAutoScaleMinMax,
                         .toggleData]
 
-        chartView.delegate = self
+//        chartView.delegate = self
 
         chartView.chartDescription.enabled = false
         chartView.dragEnabled = true

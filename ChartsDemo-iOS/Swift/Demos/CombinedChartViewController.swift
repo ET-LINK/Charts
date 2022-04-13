@@ -37,7 +37,7 @@ class CombinedChartViewController: DemoBaseViewController {
                         .toggleBarBorders,
                         .removeDataSet]
         
-        chartView.delegate = self
+//        chartView.delegate = self
         
         chartView.chartDescription.enabled = false
         

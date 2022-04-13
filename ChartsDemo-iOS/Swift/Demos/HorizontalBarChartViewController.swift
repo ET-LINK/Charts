@@ -38,7 +38,7 @@ class HorizontalBarChartViewController: DemoBaseViewController {
         
         self.setup(barLineChartView: chartView)
 
-        chartView.delegate = self
+//        chartView.delegate = self
         
         chartView.drawBarShadowEnabled = false
         chartView.drawValueAboveBarEnabled = true

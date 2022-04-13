@@ -25,7 +25,7 @@ class LineChartFilledViewController: DemoBaseViewController {
         // Do any additional setup after loading the view.
         self.title = "Filled Line Chart"
         
-        chartView.delegate = self
+//        chartView.delegate = self
         
         chartView.backgroundColor = .white
         chartView.gridBackgroundColor = UIColor(red: 51/255, green: 181/255, blue: 229/255, alpha: 150/255)
