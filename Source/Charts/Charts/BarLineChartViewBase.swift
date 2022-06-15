@@ -505,7 +505,7 @@ open class BarLineChartViewBase: ChartViewBase, BarLineScatterCandleBubbleChartD
         
         if let gradient = gridGradient
         {
-            context.drawLinearGradient(gradient, start: CGPoint(x: viewPortHandler.chartWidth-8, y: viewPortHandler.offsetTop), end: CGPoint(x: viewPortHandler.chartWidth-8, y: viewPortHandler.contentRect.height+viewPortHandler.offsetTop), options: CGGradientDrawingOptions.drawsAfterEndLocation)
+            context.drawLinearGradient(gradient, start: CGPoint(x: viewPortHandler.chartWidth, y: viewPortHandler.offsetTop), end: CGPoint(x: viewPortHandler.chartWidth, y: viewPortHandler.chartHeight+viewPortHandler.offsetTop), options: CGGradientDrawingOptions(rawValue: UInt32(0)))
         }
         
         if drawGridBackgroundEnabled || drawBordersEnabled || gridGradient != nil
