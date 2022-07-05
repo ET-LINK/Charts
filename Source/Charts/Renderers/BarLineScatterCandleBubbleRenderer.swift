@@ -106,10 +106,22 @@ open class BarLineScatterCandleBubbleRenderer: NSObject, DataRenderer
             var entryFrom = dataSet.entryForXValue(low, closestToY: .nan, rounding: .down)
             var entryTo = dataSet.entryForXValue(high, closestToY: .nan, rounding: .up)
             if entryFrom == nil {
-                entryFrom = dataSet.entryForXValue(low+1, closestToY: .nan, rounding: .down)
+                for e in 0..<100 {
+                    entryFrom = dataSet.entryForXValue(low+Double(e), closestToY: .nan, rounding: .down)
+                    if entryFrom != nil {
+                        break
+                    }
+                }
+                
             }
             if entryTo == nil {
-                entryTo = dataSet.entryForXValue(high-1, closestToY: .nan, rounding: .up)
+                for e in 0..<100 {
+                    entryTo = dataSet.entryForXValue(high-Double(e), closestToY: .nan, rounding: .up)
+                    if entryTo != nil {
+                        break
+                    }
+                }
+                
             }
             self.min = entryFrom == nil ? 0 : dataSet.entryIndex(entry: entryFrom!)
             self.max = entryTo == nil ? 0 : dataSet.entryIndex(entry: entryTo!)
