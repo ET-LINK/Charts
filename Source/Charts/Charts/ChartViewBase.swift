@@ -441,14 +441,14 @@ open class ChartViewBase: NSUIView, ChartDataProvider, AnimatorDelegate
             let entry = data?.entry(for: h)
             else
         {
-            high = nil
-            highlighted.removeAll(keepingCapacity: false)
-            if callDelegate
-            {
-                delegate?.chartValueNothingSelected?(self)
-            }
-            setNeedsDisplay()
-            return
+                high = nil
+                highlighted.removeAll(keepingCapacity: false)
+                if callDelegate
+                {
+                    delegate?.chartValueNothingSelected?(self)
+                }
+                setNeedsDisplay()
+                return
         }
 
         // set the indices to highlight
